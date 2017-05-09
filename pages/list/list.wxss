@@ -1,0 +1,23 @@
+/* pages/list/list.wxss */
+.book-list {
+  display: flex;
+  flex-direction: column;
+  padding: 30rpx;
+  background-color: #FFFFFF;
+}
+.book-item {
+  /*margin: 10rpx;*/
+  border-top: 1px solid  #FAFAFA;
+  background-color: #FFFFFE;
+  width: 96%;
+  margin: 15rpx auto;
+   font-size: 0.8em;
+   line-height: 0.8em;
+}
+.book-item:last-child{
+     border-bottom: 1px solid  #FEFEFE;
+     font-size: 0.8em;
+}
+.title{
+  margin-bottom: 40rpx;
+}

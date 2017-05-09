@@ -1,0 +1,38 @@
+/* pages/home/home.wxss */
+.book-form {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.btn-area{
+    margin-top: 50rpx;
+     display: flex;
+  flex-direction: row;
+}
+.btn-area button{
+    flex:1;
+    margin-left: 40rpx;
+}
+.btn-area button:first-child{
+   background-color: lightgreen;
+}
+/** wxss **/
+/** 修改button默认的点击态样式类**/
+.button-hover {
+  background-color: red;
+}
+/** 添加自定义button点击态样式类**/
+.other-button-hover {
+  background-color: blue;
+}
+.book-row{
+    margin-top: 20rpx;
+}
+label{
+  font-weight: 32;
+  font-size:32rpx;
+}
+input {
+  padding-left: 30rpx;
+  color:coral;
+}

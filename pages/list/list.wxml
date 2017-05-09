@@ -1,0 +1,10 @@
+<!--pages/list/list.wxml-->
+<!--<view class="classname">
+  <text>{{books}}</text>
+</view>-->
+<view class="container book-list">
+<label class="title">最新动态</label>
+  <block wx:for="{{books}}" wx:for-item="book" wx:key="*this" >
+    <text data-id="{{index}}" class="book-item" bindtap="editBook">书名:{{book.BookName}},作者:{{book.Author}},价格:{{book.Price}},位置:{{book.Location}}</text>
+  </block>
+</view>
